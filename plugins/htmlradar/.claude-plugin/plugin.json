@@ -1,0 +1,14 @@
+{
+  "name": "htmlradar",
+  "displayName": "HTMLRadar",
+  "version": "0.1.0",
+  "description": "Publish the HTML you just generated as a tracked link, then ask who read it and which sections they spent time on.",
+  "author": {
+    "name": "HTMLRadar",
+    "email": "hello@htmlradar.com",
+    "url": "https://htmlradar.com"
+  },
+  "homepage": "https://htmlradar.com/mcp",
+  "repository": "https://github.com/htmlradar/htmlradar-mcp",
+  "keywords": ["mcp", "html", "tracked-link", "read-tracking", "docsend", "deck", "proposal"]
+}

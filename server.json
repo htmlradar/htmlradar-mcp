@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.htmlradar/share",
+  "description": "Send a web page to specific people, control who opens it, see how it was read, and update it.",
+  "repository": {
+    "url": "https://github.com/htmlradar/htmlradar-mcp",
+    "source": "github"
+  },
+  "version": "0.8.1",
+  "websiteUrl": "https://htmlradar.com/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.htmlradar.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "htmlradar-mcp",
+      "version": "0.8.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "HTMLRADAR_API_KEY",
+          "description": "HTMLRadar API key, created at https://htmlradar.com/settings under \"API keys\". Starts with hr_live_.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
