@@ -1,11 +1,8 @@
 {
   "mcpServers": {
     "htmlradar": {
-      "command": "npx",
-      "args": ["-y", "htmlradar-mcp@0.8.1"],
-      "env": {
-        "HTMLRADAR_API_KEY": "${HTMLRADAR_API_KEY}"
-      }
+      "type": "http",
+      "url": "https://mcp.htmlradar.com/mcp"
     }
   }
 }

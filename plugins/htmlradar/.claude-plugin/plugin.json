@@ -1,7 +1,7 @@
 {
   "name": "htmlradar",
   "displayName": "HTMLRadar",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Publish the HTML you just generated as a tracked link, then ask who read it and which sections they spent time on.",
   "author": {
     "name": "HTMLRadar",
