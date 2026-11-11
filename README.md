@@ -6,9 +6,9 @@ This repository holds what you need to connect HTMLRadar to your agent: the Clau
 
 Your agent publishes the page, checks who read it and updates it, while you decide who gets in. Readers need no account and nothing to install.
 
-![A page sent to four people, with how long each spent on every section](docs/images/reading-by-section.png)
+![An investor update sent to four people, and the time one reader spent on each section](docs/images/reading-by-section.png)
 
-![Claude publishing a page with HTMLRadar from the conversation it was made in](docs/images/publish-from-claude.png)
+![The one-time approval screen when Claude first connects to HTMLRadar](docs/images/publish-from-claude.png)
 
 ## Install
 
