@@ -6,6 +6,10 @@ This repository holds what you need to connect HTMLRadar to your agent: the Clau
 
 Your agent publishes the page, checks who read it and updates it, while you decide who gets in. Readers need no account and nothing to install.
 
+![A page sent to four people, with how long each spent on every section](docs/images/reading-by-section.png)
+
+![Claude publishing a page with HTMLRadar from the conversation it was made in](docs/images/publish-from-claude.png)
+
 ## Install
 
 Every client below connects to the same server, `https://mcp.htmlradar.com/mcp`. The first time your agent uses it, a browser page opens: you sign in to HTMLRadar (with Google, Microsoft or your e-mail address) and choose read-only or read-and-publish. There is no key to copy. You can end a connection at any time under **Connected apps** in [Settings](https://htmlradar.com/settings).
